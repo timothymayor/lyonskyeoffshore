@@ -10,7 +10,7 @@ import { CTASection } from './components/cta/CTASection';
 import { Footer } from './components/footer/Footer';
 import { LegalModal } from './components/legal/LegalModal';
 import { CookieBanner } from './components/cookie/CookieBanner';
-import { Modal } from './components/ui/Modal';
+// import { Modal } from './components/ui/Modal';
 import { Button } from './components/ui/Button';
 import { Send, ShieldCheck, CheckCircle2 } from 'lucide-react';
 
