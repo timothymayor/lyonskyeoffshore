@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-navy: #0E213E;
+    --color-ocean: #163A63;
+    --color-marine: #23557F;
+    --color-steel: #717D8D;
+    --color-silver: #A9B3BE;
+    --color-cloud: #DFE5EA;
+    --color-amber: #D99A27;
+  }
+
+  body {
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: #0E213E;
+    color: #DFE5EA;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-serif-display {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+}
+
+@theme {
+  --color-lyonskye-navy: #0E213E;
+  --color-lyonskye-ocean: #163A63;
+  --color-lyonskye-marine: #23557F;
+  --color-lyonskye-steel: #717D8D;
+  --color-lyonskye-silver: #A9B3BE;
+  --color-lyonskye-cloud: #DFE5EA;
+  --color-lyonskye-amber: #D99A27;
+
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+/* Technical marine grid background pattern */
+.bg-marine-grid {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(113, 125, 141, 0.07) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(113, 125, 141, 0.07) 1px, transparent 1px);
+}
+
+.bg-marine-grid-dense {
+  background-size: 20px 20px;
+  background-image: 
+    linear-gradient(to right, rgba(35, 85, 127, 0.12) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(35, 85, 127, 0.12) 1px, transparent 1px);
+}
+
+/* Subtle glass effect for navy cards without heavy AI glow */
+.card-navy-glass {
+  background: rgba(22, 58, 99, 0.45);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(113, 125, 141, 0.22);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0E213E;
+}
+::-webkit-scrollbar-thumb {
+  background: #23557F;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D99A27;
+}

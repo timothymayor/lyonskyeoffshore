@@ -1,0 +1,6 @@
+{
+  "name": "Lyonskye Offshore Marine Ltd.",
+  "description": "Certified Nigerian Maritime Administration and Safety Agency (NIMASA) company providing marine, shipping, offshore logistics, vessel support, crew supply, chandling, and energy-sector maritime services.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
